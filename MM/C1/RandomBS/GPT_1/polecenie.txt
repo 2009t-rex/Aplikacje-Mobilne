@@ -1,0 +1,32 @@
+Zadanie — Mini bank
+1.Utwórz strukturę User przechowującą:
+    ID
+    imię
+    PIN
+    saldo
+    historię operacji.
+2.Dodaj możliwość tworzenia kont.
+    ID generowane automatycznie
+    saldo początkowe: 0
+3.Dodaj logowanie za pomocą ID + PIN.
+4.Po zalogowaniu dodaj menu:
+    sprawdź saldo
+    wpłać
+    wypłać
+    przelew
+    historia
+    wyloguj
+5.Zaimplementuj przelew między użytkownikami.
+    odbiorca musi istnieć
+    nie można przelać samemu sobie
+    brak wystarczających środków → błąd
+6.Zapisuj każdą operację w historii użytkownika.
+7.Dodaj opcję wyświetlenia wszystkich użytkowników posortowanych malejąco po saldzie.
+8.Dodaj naliczanie odsetek 2% każdemu użytkownikowi.
+    operacja ma zostać dodana do historii.
+9.Dodaj główne menu:
+    1 — logowanie
+    2 — tworzenie konta
+    3 — lista użytkowników
+    k — wyjście
+10.Dodaj dzienny limit przelewów 5000 zł na użytkownika.
